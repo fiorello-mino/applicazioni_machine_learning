@@ -58,6 +58,7 @@ outputs/
 output/
 results/
 
+
 # =========================
 # Temporary files
 # =========================
@@ -76,6 +77,7 @@ temp/
 *.pt
 *.pth
 *.ckpt
+*.mat
 
 # =========================
 # Coverage / testing
@@ -83,3 +85,7 @@ temp/
 .pytest_cache/
 .coverage
 htmlcov/
+
+ECG_recording_local/
+*.mat
+*.csv
